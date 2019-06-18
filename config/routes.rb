@@ -4,7 +4,6 @@ Rails.application.routes.draw do
       resources :users, only: [:index]
       resources :photos, only: [:index]
       resources :locations, only: [:index]
-
     end
   end
 end
