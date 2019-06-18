@@ -5,6 +5,6 @@ class Api::V1::PhotosController < ApplicationController
   end
 
   def create
-  	byebug
+  	# byebug
   end
 end
