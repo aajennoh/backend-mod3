@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :users, only: [:index]
-      resources :photos, only: [:index]
+      resources :photos, only: [:index, :create]
       resources :locations, only: [:index]
     end
   end
