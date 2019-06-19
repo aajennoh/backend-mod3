@@ -4,7 +4,7 @@ Rails.application.routes.draw do
       delete "/users/:id", to: "users#destroy"
       resources :users, only: [:index, :create, :delete]
       resources :photos, only: [:index, :create]
-      resources :locations, only: [:index, :create]
+      resources :locations, only: [:index, :create, :update]
     end
   end
 end
