@@ -12,6 +12,8 @@ class Api::V1::UsersController < ApplicationController
 
   def destroy
     session[:user_id] = nil
+    empty_photo_location = Location.all.select{|location| location.photos.empty?}
+    empty_photo_location.each {|location| location.delete}
   end
 
 
