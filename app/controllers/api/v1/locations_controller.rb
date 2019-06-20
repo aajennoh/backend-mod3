@@ -10,7 +10,7 @@ class Api::V1::LocationsController < ApplicationController
   end
 
   def update
-    @location = Location.find(params[:id])
+    @location = Location.find_by(id: params[:id], user_id: params[:user_id])
     @location.update(location_params)
     render json: @location
   end
