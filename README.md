@@ -6,7 +6,7 @@
 * Ability to click on location marker to render a modal of locations’ photo and description.
 * Ability to see other users’ map and location markers through a dropdown menu.
 * Video Demo: https://www.youtube.com/watch?v=OpF81sbnZP0
-* Github Backend: https://github.com/aajennoh/Frontend-mod3
+* Github Frontend: https://github.com/aajennoh/Frontend-mod3
 
 
 
