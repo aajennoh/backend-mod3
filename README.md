@@ -1,24 +1,18 @@
-# README
+# Postcard (Backend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Users can upload photos on Google Maps and look at other users’ locations.
 
-Things you may want to cover:
+Users can create location marker on Google Maps for either the users’ current location or by selection upon click.
 
-* Ruby version
+Appearance of a form for user to upload a photo and description of said location.
 
-* System dependencies
+Ability to click on location marker to render a modal of locations’ photo and description.
 
-* Configuration
+Ability to see other users’ map and location markers through a dropdown menu.
 
-* Database creation
 
-* Database initialization
+JavaScript, Rails API, ActiveRecord, Google Maps JavaScript API, Google Geolocation API, Cloudinary API, PostgreSQL, SQLite3, Custom CSS
 
-* How to run the test suite
+Video Demo: https://www.youtube.com/watch?v=OpF81sbnZP0
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Github Backend: https://github.com/aajennoh/Frontend-mod3
