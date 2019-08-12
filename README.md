@@ -1,4 +1,4 @@
-# Postcard (Frontend)
+# Postcard (Backend)
 
 * Users can upload photos on Google Maps and look at other users’ locations.
 * Users can create location marker on Google Maps for either the users’ current location or by selection upon click.
@@ -6,7 +6,7 @@
 * Ability to click on location marker to render a modal of locations’ photo and description.
 * Ability to see other users’ map and location markers through a dropdown menu.
 * Video Demo: https://www.youtube.com/watch?v=OpF81sbnZP0
-* Github Backend: https://github.com/aajennoh/backend-mod3
+* Github Backend: https://github.com/aajennoh/Frontend-mod3
 
 
 
